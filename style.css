@@ -1,13 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400, 700, 300);
 @import url(https://fonts.googleapis.com/css?family=Fira+Mono);
 
 body {
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizelegibility;
-    background-color: #FFFFFF;
-    color: #081820;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  background-color: #ffffff;
+  color: #081820;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
 }
 
 .slide {
@@ -17,93 +17,110 @@ body {
   height: auto;
 }
 
-#slide-1 h1, .dark h1 {
+#slide-1 h1,
+.dark h1 {
   margin: 170px 0 0;
 }
 
 h1 {
-    font-size: 250%;
-    margin: auto;
+  font-size: 250%;
+  margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    letter-spacing: -0.5px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
-h1, h2, h3 {
-    color: #346856;
+h1,
+h2,
+h3,
+h4 {
+  color: #346856;
 }
 
 h3 {
   border-bottom: 1px solid #346856;
 }
 
-h4, h5 {
-    color: #000000;
-    margin-bottom: 0;
+h4,
+h5 {
+  color: #000000;
+  margin-bottom: 0;
 }
 
 h6 {
-    margin-bottom: 0;
-    text-transform: uppercase;
+  margin-bottom: 0;
+  text-transform: uppercase;
 }
 
-h4 + p, h5 + p, h6 + p,
-h4 + ul, h5 + ul, h6 + ul {
-    margin-top: 0;
+h4 + p,
+h5 + p,
+h6 + p,
+h4 + ul,
+h5 + ul,
+h6 + ul {
+  margin-top: 0;
 }
 
 a {
-    color: #61C5AA;
-    text-decoration: underline;
+  color: #61c5aa;
+  text-decoration: underline;
 }
 
 a:hover {
-    color: #44b999;
-    text-decoration: none;
+  color: #44b999;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 ul > li {
-    margin: -0.2em 0;
+  margin: -0.2em 0;
 }
 ul > li:before {
-    content: "";
-    border-color: transparent #346856;
-    border-style: solid;
-    border-width: 0.2em 0 0.2em 0.3em;
-    display: block;
-    left: -0.6em;
-    top: 0.95em;
-    position: relative;
-    margin: 0px;
-    padding: 0px;
-    height: 0px;
-    width: 0px;
+  content: "";
+  border-color: transparent #346856;
+  border-style: solid;
+  border-width: 0.2em 0 0.2em 0.3em;
+  display: block;
+  left: -0.6em;
+  top: 0.95em;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  height: 0px;
+  width: 0px;
 }
 
-li > ul, li > ol {
-    padding: 0 0 0 1.5em;
+li > ul,
+li > ol {
+  padding: 0 0 0 1.5em;
 }
 
 li > ul > li:before {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
-pre, code {
-  font-family: 'Fira Mono', monospace;
+pre,
+code {
+  font-family: "Fira Mono", monospace;
 }
 
-p > code, li > code {
-    background: #e0f8d0;
-    color: #346856;
-    padding: 0.1em 0.2em;
-    font-size: 80%;
-    vertical-align: middle;
-    border-radius: 4px;
+p > code,
+li > code {
+  background: #e0f8d0;
+  color: #346856;
+  padding: 0.1em 0.2em;
+  font-size: 80%;
+  vertical-align: middle;
+  border-radius: 4px;
 }
 
 pre {
@@ -118,50 +135,51 @@ pre {
   box-shadow: inset 0 1px 1px #88c070;
 }
 
-blockquote, img {
-    background-color: #FFFFFF;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+blockquote,
+img {
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 img + em {
-    display: block;
-    margin-top: 0.5em;
-    text-align: center;
-    font-size: 50%;
+  display: block;
+  margin-top: 0.5em;
+  text-align: center;
+  font-size: 50%;
 }
 
 blockquote > p:first-child {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 blockquote > p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 blockquote {
-    padding: 1em;
-    border-left: 3px solid #88c070;
+  padding: 1em;
+  border-left: 3px solid #88c070;
 }
 
 img[alt="background"] {
-    padding: 0;
-    margin: 0;
-    box-shadow: none;
-    position: absolute;
-    z-index: 5;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.05;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.05;
 }
 
 #slide-1 img[alt="background"] {
@@ -169,70 +187,73 @@ img[alt="background"] {
 }
 
 #slide-1 {
-    background-color: #88c070;
-    background-image: linear-gradient(120deg, #346856, #88c070);
-    color: #FFFFFF;
+  background-color: #88c070;
+  background-image: linear-gradient(120deg, #346856, #88c070);
+  color: #ffffff;
 }
-
 
 .slide.dark {
-    background-color: #081820;
-    color: #FFFFFF;
+  background-color: #081820;
+  color: #ffffff;
 }
 
-#slide-1 h1, #slide-1 h2,
-.slide.dark h1, .slide.dark h2 {
-    color: #FFFFFF;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
-    position: relative;
-    z-index: 10;
+#slide-1 h1,
+#slide-1 h2,
+.slide.dark h1,
+.slide.dark h2 {
+  color: #ffffff;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 10;
 }
 
-#slide-1 h2, .slide.dark h2 {
-    opacity: 0.75;
+#slide-1 h2,
+.slide.dark h2 {
+  opacity: 0.75;
 }
 
 .slide.dark ul > li:before {
-    border-color: transparent rgba(255,255,255,.6);
+  border-color: transparent rgba(255, 255, 255, 0.6);
 }
 
 .author-slide {
-    background-color: #737373;
+  background-color: #737373;
 }
 
 .author-slide h1 {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
-.author-slide, .slide.dark a {
-    color: #88c070;
-    position: relative;
-    z-index: 10;
+.author-slide,
+.slide.dark a {
+  color: #88c070;
+  position: relative;
+  z-index: 10;
 }
 
 .progress {
-    z-index: 100;
+  z-index: 100;
 }
 .progress-bar {
-    background-color: #88c070;
-    transition-duration: 0.25s;
+  background-color: #88c070;
+  transition-duration: 0.25s;
 }
 
 .numbers {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    font-size: 150%;
-    background-color: #081820;
-    color: #FFFFFF;
-    opacity: 0.5;
-    padding: 0.2em 1em;
-    border-radius: 40px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 150%;
+  background-color: #081820;
+  color: #ffffff;
+  opacity: 0.5;
+  padding: 0.2em 1em;
+  border-radius: 40px;
 }
 /* #slide-1 .numbers,
 .slide.dark .numbers, */
 .numbers:empty {
-    display: none;
+  display: none;
 }
 
 /*
